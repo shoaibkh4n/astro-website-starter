@@ -37,6 +37,8 @@ Before you begin, ensure you have installed:
    npm run preview
    ```
 
+> After installing this make sure to visit `/nesting` to see more, nesting routes.
+
 ### Configuration
 
 Edit the `src/config/config.json` file to customize global settings for your site. Manage your content by adding or modifying markdown files in the `src/content/` directory, ensuring they adhere to the schema defined in `src/content/config.ts` validated by `zod`.
@@ -45,9 +47,13 @@ Edit the `src/config/config.json` file to customize global settings for your sit
 
 This template is designed to be easily customizable. You can add styles, assets, and components to fit your needs:
 
-- Styles: Customize or add new stylesheets in the src/assets directory.
-- Assets: Place images, icons, and other assets in src/assets/images.
-- Components: Reuse or create new components within the src/components directory.
+- Styles: Customize or add new stylesheets in the `src/assets/css` directory.
+- Assets: Place images, icons, and other assets in `src/assets/images` directory.
+- Components: Reuse or create new components within the `src/components` directory.
+- Content: It is using Astro content api so play with `src/content/` and make sure to add the schema for each in `src/content/config.ts`.
+- Layout: Contains the base layout for the project, you can add more or customize accordingly.
+- Pages: This directory has configured nesting routes that you can see by visiting `/nesting` after running this project , 404 page, index page, you can customize each accordingly and add more pages according to your project need.
+- Lib: It contains all the utility functions and files.
 
 ### Deployment
 
@@ -67,3 +73,4 @@ Distributed under the MIT License. See [LICENCE](https://github.com/shoaibkh4n/a
 - Backed by [Quazire.com](https://quazire.com/)
 
 - Follow me on [Twitter](https://twitter.com/theshoaibkh4n) and [Linkedin](https://linkedin.com/in/shoaibkh4n)
+- Support my work with a [Donation](https://github.com/sponsors/shoaibkh4n) 🔥🚀
