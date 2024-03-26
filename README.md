@@ -4,9 +4,11 @@ Welcome to the Astro Website Template! This template is designed to help you qui
 
 ## Features
 
-- **Nested Routing for Blogs**: Simplify the management and navigation of your blog or documentation.
+- **Nested Routing**: Simplify the management and navigation of your blog or documentation or any nesting routing purpose.
 - **Centralized Configuration**: Manage site settings like page titles, descriptions, and more from a single location.
 - **Content API Integration**: Utilize Astro's Content API with a defined schema for dynamic and easy content updates.
+- **Assets Management**: Seperate dir to manage and maintain the assets including your stylesheet if any.
+- **Customized 404 page**: Completely customized pre-configured not found page located in pages dir.
 
 ## Getting Started
 
@@ -47,13 +49,13 @@ Edit the `src/config/config.json` file to customize global settings for your sit
 
 This template is designed to be easily customizable. You can add styles, assets, and components to fit your needs:
 
-- Styles: Customize or add new stylesheets in the `src/assets/css` directory.
-- Assets: Place images, icons, and other assets in `src/assets/images` directory.
-- Components: Reuse or create new components within the `src/components` directory.
-- Content: It is using Astro content api so play with `src/content/` and make sure to add the schema for each in `src/content/config.ts`.
-- Layout: Contains the base layout for the project, you can add more or customize accordingly.
-- Pages: This directory has configured nesting routes that you can see by visiting `/nesting` after running this project , 404 page, index page, you can customize each accordingly and add more pages according to your project need.
-- Lib: It contains all the utility functions and files.
+- **Styles**: Customize or add new stylesheets in the `src/assets/css` directory.
+- **Assets**: Place images, icons, and other assets in `src/assets/images` directory.
+- **Components**: Reuse or create new components within the `src/components` directory.
+- **Content**: It is using Astro content api so play with `src/content/` and make sure to add the schema for each in `src/content/config.ts`.
+- **Layout**: Contains the base layout for the project, you can add more or customize accordingly.
+- **Pages**: This directory has configured nesting routes that you can see by visiting `/nesting` after running this project , 404 page, index page, you can customize each accordingly and add more pages according to your project need.
+- **Lib**: It contains all the utility functions and files.
 
 ### Deployment
 
