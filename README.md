@@ -59,7 +59,7 @@ Contributions are welcome! If you'd like to help improve the Astro Website Templ
 
 ### License
 
-Distributed under the MIT License. See [LICENCE](https://github.com/shoaibkh4n/astro-website-starter/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENCE](https://github.com/shoaibkh4n/astro-website-starter/blob/master/LICENSE) for more information.
 
 ### Acknowledgments
 
