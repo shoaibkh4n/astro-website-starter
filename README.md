@@ -1,54 +1,69 @@
-# Astro Starter Kit: Basics
+# Astro Website Template
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to the Astro Website Template! This template is designed to help you quickly set up a website using Astro, featuring preconfigured nested routing for blogs, centralized configuration, and a structured content system.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Nested Routing for Blogs**: Simplify the management and navigation of your blog or documentation.
+- **Centralized Configuration**: Manage site settings like page titles, descriptions, and more from a single location.
+- **Content API Integration**: Utilize Astro's Content API with a defined schema for dynamic and easy content updates.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Getting Started
 
-## 🚀 Project Structure
+### Prerequisites
 
-Inside of your Astro project, you'll see the following folders and files:
+Before you begin, ensure you have installed:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Node.js
+- npm
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Installation
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+1. Clone the repository or download the zip file.
+2. Navigate to the project directory and install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm run dev
+   ```
+4. Build your site for production:
+   ```
+   npm run build
+   ```
+5. Preview your production build:
+   ```
+   npm run preview
+   ```
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Configuration
 
-## 🧞 Commands
+Edit the `src/config/config.json` file to customize global settings for your site. Manage your content by adding or modifying markdown files in the `src/content/` directory, ensuring they adhere to the schema defined in `src/content/config.ts` validated by `zod`.
 
-All commands are run from the root of the project, from a terminal:
+### Customization
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+This template is designed to be easily customizable. You can add styles, assets, and components to fit your needs:
 
-## 👀 Want to learn more?
+- Styles: Customize or add new stylesheets in the src/assets directory.
+- Assets: Place images, icons, and other assets in src/assets/images.
+- Components: Reuse or create new components within the src/components directory.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Deployment
+
+Follow the guidelines provided by your hosting service to deploy your Astro website. Most platforms support Astro out of the box and only require a build command (npm run build) and a publish directory (dist/).
+
+### Contributing
+
+Contributions are welcome! If you'd like to help improve the Astro Website Template, feel free to submit issues, feature requests, or pull requests.
+
+### License
+
+Distributed under the MIT License. See [LICENCE](https://github.com/shoaibkh4n/astro-website-starter/blob/main/LICENSE) for more information.
+
+### Acknowledgments
+
+- Icon and designs from [Quazire.com](https://quazire.com/)
+- Backed by [Quazire.com](https://quazire.com/)
+
+- Follow me on [Twitter](https://twitter.com/theshoaibkh4n) and [Linkedin](https://linkedin.com/in/shoaibkh4n)

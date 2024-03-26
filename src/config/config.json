@@ -1,0 +1,43 @@
+{
+  "domain": "example.com",
+  "company_name": "Astro Website Starter",
+  "legal_name": "Astro Build Ltd.",
+  "baseurl": "https://example.com",
+  "phone": "9876543210",
+  "email": "info@example.com",
+  "main_title": "Astro Website Complete Starter Template",
+  "main_description": "A complete astro starter template for landing pages, business website or any kind of website. With perfect configurations i.e. alias imports, content management boilerplate, professional folder and file structure.",
+  "social_links": [
+    {
+      "name": "Instagram",
+      "link": "https://instagram.com/"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://twitter.com/"
+    },
+    {
+      "name": "Linkedin",
+      "link": "https://linkedin.com/"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/"
+    },
+    { "name": "Discord", "link": "https://discord.com/" }
+  ],
+  "title_description": {
+    "index": {
+      "title": "Index page: Astro Website Complete Starter Template",
+      "description": "SEO Description for index page, customize it accordingly."
+    },
+    "nesting_main": {
+      "title": "Nesting Main: Astro Website Complete Starter Template",
+      "description": "SEO Description for nested home page, customize it accordingly."
+    },
+    "not_found": {
+      "title": "Page Not Found | Astro Website Complete Starter Template",
+      "description": "SEO Description for 404 page, customize it accordingly."
+    }
+  }
+}
